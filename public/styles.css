@@ -6,6 +6,9 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("pizzaria5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 html {
@@ -24,6 +27,7 @@ div {
     text-align: left;
     max-width: 25rem;
     min-width: 9.375rem;
+    
 }
 
 #chat {
@@ -31,6 +35,9 @@ div {
     overflow-y: auto;
     overflow-x: hidden;
     height: 80vh;
+    background-color: white;
+    opacity: 0.9;
+    box-shadow: floralwhite 1px 1px 1px 7px;
 }
 
 .message-inner {
@@ -133,6 +140,9 @@ div {
     border-bottom: 0.0625rem solid #aeaeae;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    background-color: white;
+    opacity: 0.9;
+    box-shadow: floralwhite 1px 1px 1px 7px;
 }
 
 @media only screen and (max-width: 1000px) {
